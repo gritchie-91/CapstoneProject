@@ -4,10 +4,10 @@ package com.example.team4.capstoneproject;
  * Created by reidhoruff on 4/2/14.
  */
 public interface ServerCommunicatable {
-    public void pingResponse(boolean success);
+/*    public void pingResponse(boolean success);
     public void createUserResponse(boolean success, String message);
 
-    /*
+
     public void createRouteResponse(long route_id) {}
     public void getRouteResponse(Route route) {}
     public void getRouteListResponse(ArrayList<Route> routes) {}

@@ -1,7 +1,6 @@
-package com.example.team4.capstoneproject;
+//package com.example.team4.capstoneproject;
 
-import android.net.Uri;
-import android.os.AsyncTask;
+/*import android.os.AsyncTask;
 import android.util.Log;
 
 import org.apache.http.HttpResponse;
@@ -28,7 +27,7 @@ import java.io.IOException;
  * when the request completes or fails.
  */
 public class ServerCommunicator {
-    HttpClient httpclient = null;
+/*    HttpClient httpclient = null;
     private ServerCommunicatable client;
     final static String ADDRESS = "192.168.0.11:8000";
     private String devID = null;
@@ -68,7 +67,7 @@ public class ServerCommunicator {
  * this method will typically notify the client activity via the
  * appropriate method in the ServerCommunicatable interface.
  */
-abstract class RequestTask extends AsyncTask<String, String, String>{
+/*abstract class RequestTask extends AsyncTask<String, String, String>{
     ServerCommunicatable activity;
     protected boolean isSuccess;
 
@@ -165,5 +164,5 @@ class FetchAllInterestsRequestTask extends RequestTask {
     @Override
     protected void notify(JSONObject json) {
         //...
-    }
+    }*/
 }
